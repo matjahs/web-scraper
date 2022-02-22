@@ -1,0 +1,110 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="2848" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="3.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.8" />
+            <item index="2" class="java.lang.String" itemvalue="3.9" />
+            <item index="3" class="java.lang.String" itemvalue="3.10" />
+            <item index="4" class="java.lang.String" itemvalue="3.11" />
+            <item index="5" class="java.lang.String" itemvalue="3.10" />
+            <item index="6" class="java.lang.String" itemvalue="3.11" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="humanize" />
+            <item index="1" class="java.lang.String" itemvalue="MySQLdb" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="reversed" />
+          <option value="help" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="docutils-stubs==0.0.21" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="salt.states.cron.__salt__" />
+          <option value="salt.states.cron.__env__" />
+          <option value="salt.states.cron.__opts__" />
+          <option value="salt.states.cron.__grains__" />
+          <option value="salt.modules.cron.*" />
+          <option value="compactions.__salt__" />
+          <option value="compactions.slack.__salt__" />
+          <option value="opsgenie.__grains__" />
+          <option value="compactions_old.__salt__" />
+          <option value="compactions.slack_report.__salt__" />
+          <option value="compactions.compaction.__salt__" />
+          <option value="salt.ext._states.cronscript.__salt__" />
+          <option value="salt.ext._states.cronscript.__grains__" />
+          <option value="salt.ext._states.cronscript.__opts__" />
+          <option value="salt.ext._states.cronscript.__env__" />
+          <option value="salt.ext._modules.cron.__salt__" />
+          <option value="salt.ext._modules.cron.__grains__" />
+          <option value="salt.ext._modules.compactions.compaction.__salt__" />
+          <option value="cronscript.__salt__" />
+          <option value="cronscript.__grains__" />
+          <option value="systemcron.__salt__" />
+          <option value="systemcron.__grains__" />
+          <option value="systemcron.__opts__" />
+          <option value="systemcron.__env__" />
+          <option value="alcali.__salt__" />
+          <option value="alcali.__opts__" />
+          <option value="alcali.__context__" />
+          <option value="chkconfig.__grains__" />
+          <option value="src.bc.modules.compactions.__salt__" />
+          <option value="saltext.bc.states.chkconfig.*" />
+          <option value="saltext.bc.states.cronscript.__salt__" />
+          <option value="saltext.bc.states.cronscript.__grains__" />
+          <option value="saltext.bc.states.systemctl.__opts__" />
+          <option value="saltext.bc.states.systemctl.__salt__" />
+          <option value="integration.states.chkconfig.__opts__" />
+          <option value="saltext.bc.modules.chkconfig.__salt__" />
+          <option value="saltext.bc.modules.systemctl.__grains__" />
+          <option value="saltext.bc.modules.systemctl.__salt__" />
+          <option value="saltext.bc.modules.crontab.__salt__" />
+          <option value="saltext.bc.modules.cronscript.__salt__" />
+          <option value="saltext.bc.grains.ec2_metadatagrain.__grains__" />
+          <option value="saltext.bc.states.opsgenie.__opts__" />
+          <option value="saltext.bc.states.opsgenie.__salt__" />
+          <option value="bc.modules.systemctl.__salt__" />
+          <option value="bc.modules.bc_slack.__salt__" />
+          <option value="saltext.bc.modules.bc_slack.__salt__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
